@@ -1,0 +1,45 @@
+@media (min-width:1024px){
+    .desktop_hide{
+        display: block;
+    }
+}
+@media (min-width:575px){
+    .desktop_hide{
+        display: block;
+    }
+    .desktop_hide{
+        width: 150px;
+    }
+    .logo{
+        display: none;
+    }
+    .header_info {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .header_desktop_hide{
+        display: none;
+    }
+    .appoint{
+        display: none;
+    }
+    .info{
+        display: block;
+        width: 50%;
+    }
+    .navbar-collapse{
+        display: flex;
+    }
+    .navbar-nav{
+        width: 50%;
+    }
+    .info_box {
+        margin-bottom: 20px;
+    }
+    header {
+        padding: 20px 10px 20px 0;
+    }
+    .info_box .appoint{
+        display: block;
+    }
+}
